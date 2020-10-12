@@ -1,0 +1,36 @@
+h1 {
+  color: $white;
+  font-weight: 700;
+  font-size: 3.67rem;
+  text-align: center;
+  margin: 3rem auto 2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+// Text colors
+.text {
+  &-black {
+    color: $black;
+  }
+
+  &-grey {
+    color: $textgrey;
+  }
+
+  &-pale {
+    color: $lightgrey;
+  }
+
+  &-white {
+    color: $white;
+  }
+}

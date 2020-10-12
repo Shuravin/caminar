@@ -1,0 +1,41 @@
+.my {
+  &-lg {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  &-md {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  &-sm {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.py {
+  &-lg {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  &-md {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  &-sm {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+// Horizontal line
+.horline {
+  width: 100px;
+  height: 1px;
+  background: $grey;
+  margin: 0 auto;
+}

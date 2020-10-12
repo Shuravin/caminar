@@ -1,0 +1,44 @@
+.bottomgrid {
+  &__flex {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    background: $white;
+
+    .flex-image {
+      content: "";
+      min-width: 100px;
+      min-height: 400px;
+      flex: 1;
+
+      &__first {
+        background: url("../images/pic06.jpg") no-repeat center center/cover;
+      }
+
+      &__second {
+        background: url("../images/pic07.jpg") no-repeat center center/cover;
+      }
+
+      &__third {
+        background: url("../images/pic08.jpg") no-repeat center center/cover;
+      }
+    }
+
+    .description {
+      flex: 1;
+      display: block;
+
+      div {
+        padding: 4rem;
+      }
+    }
+
+    &:nth-child(2) {
+      flex-direction: row-reverse;
+    }
+
+    &:nth-child(2) {
+      background: $black;
+    }
+  }
+}

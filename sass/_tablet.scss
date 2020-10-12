@@ -1,0 +1,25 @@
+@media (max-width: 1240px) {
+  .container {
+    max-width: 90vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 95vw;
+    margin: 0 auto 2rem;
+    box-shadow: 0 0 2rem #000;
+  }
+}
+
+@media (max-width: 768px) {
+  .topgrid__grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bottomgrid__flex,
+  .bottomgrid__flex:nth-child(2) {
+    flex-direction: column;
+  }
+}

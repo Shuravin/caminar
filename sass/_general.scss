@@ -1,0 +1,50 @@
+html {
+  font-size: 90%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: url("../images/bg.jpg") no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  line-height: 2rem;
+  font-weight: 200;
+}
+
+img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+// Containers
+.container {
+  max-width: 1175px;
+  margin: 0 auto 2rem;
+  box-shadow: 0 0 2rem #000;
+}
+
+// Font Awesome Icons
+i {
+  font-size: 2rem;
+}

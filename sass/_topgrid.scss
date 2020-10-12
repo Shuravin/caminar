@@ -1,0 +1,36 @@
+.topgrid {
+  background: $darkgrey;
+  padding: 3.5rem;
+
+  &__container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: $black;
+  }
+
+  &__title {
+    text-align: center;
+    padding: 3.5rem 0 2rem;
+
+    h2 {
+      margin-bottom: 1rem;
+    }
+
+    .horline {
+      margin-bottom: 1rem;
+    }
+
+    p {
+      letter-spacing: 0.2rem;
+    }
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    a {
+      margin-bottom: -1rem;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.footer {
+  &__socials {
+    margin: 0 auto;
+    padding: 3rem;
+    max-width: 300px;
+    text-align: center;
+
+    a {
+      color: $grey;
+
+      &:hover {
+        color: $white;
+      }
+
+      &:not(:first-child) {
+        margin-left: 1rem;
+      }
+    }
+  }
+
+  .copy {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
