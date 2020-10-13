@@ -4,4 +4,34 @@
     margin: 0 auto 2rem;
     box-shadow: 0 0 2rem #000;
   }
+
+  .subhero {
+    &__title {
+      padding: 1.5rem;
+    }
+
+    &__text {
+      background: $grey;
+      padding: 2rem;
+    }
+  }
+
+  .topgrid {
+    background: $darkgrey;
+    padding: 2rem;
+  }
+
+  .bottomgrid {
+    &__flex {
+      .description {
+        div {
+          padding: 2rem;
+        }
+      }
+    }
+  }
+
+  .modal {
+    min-width: 80vw;
+  }
 }

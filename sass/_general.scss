@@ -48,3 +48,49 @@ img {
 i {
   font-size: 2rem;
 }
+
+// Modal window and overlay
+.modal {
+  content: "";
+  position: fixed;
+  width: auto;
+  height: auto;
+  border: 0.8rem solid #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  & > * {
+    margin-bottom: -8px;
+  }
+}
+
+.overlay {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+
+  .close {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    color: $grey;
+
+    &:hover {
+      color: $white;
+    }
+
+    i {
+      font-size: 3.5rem;
+    }
+  }
+}
+
+// Display options
+.hidden {
+  display: none;
+}
